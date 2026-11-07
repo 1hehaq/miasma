@@ -1,0 +1,91 @@
+# miasma — a fog descends upon your editor
+# port of xero/miasma.nvim to micro
+# palette: base #222222 · surface #1c1c1c · text #d7c483
+#          accent #78834b · keyword #5f875f · amber #c9a554
+#          orange #bb7744 · warning #685742 · error #b36d43
+
+color-link default "#d7c483,#222222"
+
+# syntax
+color-link comment "#666666"
+color-link identifier "#d7c483"
+color-link constant "#bb7744"
+color-link constant.string "#685742"
+color-link constant.number "#78834b"
+color-link constant.bool "#78834b"
+color-link constant.specialChar "#bb7744"
+color-link statement "bold #5f875f"
+color-link symbol "#d7c483"
+color-link symbol.operator "#d7c483"
+color-link symbol.brackets "#d7c483"
+color-link symbol.tag "#5f875f"
+color-link preproc "#5f875f"
+color-link preproc.shebang "#666666"
+color-link type "bold #78834b"
+color-link type.extended "bold #78834b"
+color-link type.keyword "bold #78834b"
+color-link type.storage "bold #78834b"
+color-link special "#bb7744"
+color-link underlined "underline #78834b"
+color-link underlined.url "underline #78834b"
+color-link error "#c2c2b0,#bb7744"
+color-link todo "bold underline #d7c483"
+
+# comments (miasma has one comment colour)
+color-link comment.line "#666666"
+color-link comment.block "#666666"
+color-link comment.doc "#666666"
+color-link comment.bright "#666666"
+
+# identifiers
+color-link identifier.var "#d7c483"
+color-link identifier.class "#78834b"
+color-link identifier.function "#78834b"
+color-link identifier.builtinfunc "#bb7744"
+color-link identifier.macro "#5f875f"
+
+# statements / properties
+color-link statement.control "bold #5f875f"
+color-link statement.declaration "bold #5f875f"
+color-link statement.reserved "bold #5f875f"
+color-link statement.built "bold #5f875f"
+color-link statement.class "bold #5f875f"
+color-link statement.meta "bold #5f875f"
+color-link statement.access "bold #5f875f"
+color-link statement.parameter "#d7c483"
+color-link statement.member "#d7c483"
+color-link statement.properties "#d7c483"
+
+# editor chrome
+color-link selection "#222222,#78834b"
+color-link cursor-line "#1c1c1c"
+color-link line-number "#666666,#1c1c1c"
+color-link current-line-number "bold #78834b,#1c1c1c"
+color-link color-column "#1c1c1c"
+color-link statusline "bold #d7c483,#1c1c1c"
+color-link statusline.inactive "bold #666666,#1c1c1c"
+color-link statusline.suggestions "#222222,#78834b"
+color-link tabbar "#666666,#111111"
+color-link tabbar.active "bold #111111,#78834b"
+color-link message "#d7c483,#1c1c1c"
+color-link error-message "#b36d43,#1c1c1c"
+color-link divider "#1c1c1c,#222222"
+color-link scrollbar "#43492a"
+color-link indent-char "#242d1d"
+color-link ignore "underline #444444"
+
+# gutter
+color-link gutter-error "#b36d43"
+color-link gutter-warning "#685742"
+color-link gutter-info "#5f875f"
+color-link diff-added "#5f875f"
+color-link diff-modified "#685742"
+color-link diff-deleted "#b36d43"
+
+# search / matching
+color-link hlsearch "#222222,#5f875f"
+color-link match-brace "bold underline #d7c483"
+
+# misc
+color-link tab-error "#b36d43"
+color-link trailingws "#685742"
